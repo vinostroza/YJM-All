@@ -1,0 +1,188 @@
+a:link,
+a:visited {
+    text-align: center;
+    /* padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block; */
+}
+
+img {
+    margin-left: 3%;
+    margin-right: 15%;
+}
+
+body {
+    margin-top: 100rem;
+}
+
+.satisfy {
+    font-family: 'Satisfy', cursive;
+}
+
+.dancing {
+
+    font-family: 'Dancing Script', cursive;
+}
+
+.margins1 {
+    margin-block-start: 2% !important;
+    margin-left: 20% !important;
+    margin-right: 2% !important;
+
+}
+
+.margins2 {
+    margin-block-end: 2% !important;
+    margin-left: 2% !important;
+    margin-right: 20% !important;
+}
+.btn-group {
+    background-color:white; 
+    color: rgb(58, 39, 126); 
+    cursor: pointer; 
+    width: 2%; 
+    height: 2%;
+    float: left;
+    
+}
+
+.sidebar {
+    position: absolute;
+    margin-left: 5%;
+}
+ 
+.landingmargins {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.education {
+    color: chartreuse; 
+    font-size: 40px;
+    
+}
+
+.education:hover {
+    transition-duration: 0.8s ease-in-out;
+        font-size: 45px;
+}
+
+.employment {
+    color: rgb(248, 250, 108); 
+    font-size: 40px;
+}
+
+.employment:hover {
+    transition-duration: 0.8s ease-in-out;
+    font-size: 45px;
+}
+   
+.health {
+    color:tomato; 
+    font-size: 40px;
+}
+
+.health:hover {
+    transition-duration: 0.8s ease-in-out;
+    font-size: 45px;
+}
+   
+
+.legal {
+    color: rgb(122, 16, 122);
+    font-size: 40px; 
+}
+
+.legal:hover {
+    transition-duration: 0.8s ease-in-out;
+    font-size: 45px;
+}
+
+.emergency{
+    color: red;
+    font-size: 40px;
+}
+
+.emergency:hover {
+    transition-duration: 0.8s ease-in-out;
+    font-size: 45px;
+}
+   
+.housing {
+    color: darkcyan;
+    font-size: 40px;
+}
+
+.housing:hover {
+    transition-duration: 0.8s ease-in-out;
+    font-size: 45px;
+}
+   
+.socialmediaFb {
+    float: right;
+    margin-right: 5%; 
+    color: blue;  
+    font-size: 30px; 
+    background-color: black;
+}
+
+.socialmediaYtb{
+    float: right;
+    margin-right: 5%;
+    color: red;
+    font-size: 30px;
+    background-color: black;
+}
+
+.socialmediaFb:hover {
+    transition-duration: 0.8s ease-in-out;
+    font-size: 35px;
+    background-color: black;
+}
+
+.socialmediaYtb:hover {
+    transition-duration: 0.8s ease-in-out;
+    font-size: 35px;
+    background-color: black;
+}
+
+.socialmediaicons{
+    float: right;
+    margin-right: 20px;
+    
+}
+
+#hover-element{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 5px;
+    font-family: cursive;
+    text-align: right;
+    float: right;
+
+}
+
+#hover-text:hover #hover-element{
+    display: block;
+}
+
+#hover-text{
+    display: inline;
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: middle;
+ }
+.footerAlign{
+    text-align: middle;
+ 
+}
