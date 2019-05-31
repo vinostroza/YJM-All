@@ -1,0 +1,44 @@
+a:link, a:visited {
+    text-align: center; 
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+    
+    }
+
+
+img {
+   margin-left: 3%;
+   margin-right: 15%;
+}
+
+
+
+body{
+    margin-top: 100rem;
+}
+
+
+
+.satisfy {
+font-family: 'Satisfy', cursive;
+}
+
+.dancing {
+
+font-family: 'Dancing Script', cursive;
+}
+
+.margins1 {
+    margin-block-start: 2% !important;
+    margin-left: 20% !important;
+    margin-right: 2% !important;
+    
+}
+
+.margins2 {
+    margin-block-end: 2% !important;
+    margin-left: 2% !important;
+    margin-right: 20% !important;
+}
+

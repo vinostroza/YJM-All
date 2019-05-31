@@ -1,0 +1,35 @@
+/* YJM FOOTER*/
+
+/* .footerColor {
+        background-color:white;
+        color: black;
+}  */
+
+/* .footerFrame {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin: 0; 
+}  */
+
+/* .footerText {
+        color:black;
+
+} */
+
+
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: right;
+
+
+     }
+.footerAlign{
+
+        text-align: left;
+
+}
