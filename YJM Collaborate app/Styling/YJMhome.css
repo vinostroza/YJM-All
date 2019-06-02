@@ -177,15 +177,64 @@ body {
     position: fixed;
     left: 0;
     bottom: 0;
+    top: 1;
     width: 90%;
-    margin-left: 6%;
-    padding: 10px;
+    margin-left: 5%;
+    text-align: middle;
+
 
 }
    
 .footerAlign {
-    text-align: left;
+    text-align:middle;
+    font-size: 14px;
 
 
 }
+
+/* RESPONSIVE IDEA KEEP*/
+
+/* @media only screen and (max-width: 480px) {
+
+    a.mobile {
+        display: block;
+        color: #fff;
+        background: #000;
+        text-align: center;
+        padding: 7px;
+        cursor: pointer;
+    }
+
+    a.mobile:active {
+        background: #474747;
+    }
+
+
+    .sidebar {
+        width: 100%;
+        display: none;
+        height: auto;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 480px) {
+    .sidebar {
+        height: 92%;
+        left: 0;
+        display: block;
+        position: absolute;
+    }
+
+    a.mobile {
+        display: none;
+    }
+} */
 
