@@ -1,9 +1,7 @@
 a:link,
 a:visited {
     text-align: center;
-    padding: 14px 25px;
-    text-decoration: none;
-    display: inline-block;
+    display: inline-block; 
 }
 
 img {
@@ -47,8 +45,8 @@ body {
 }
 
 .sidebar {
-    position: relative;
-    margin-left: 5%;
+    position: absolute;
+    margin-left: 8%;
 }
  
 .landingmargins {
@@ -121,18 +119,18 @@ body {
 }
    
 .socialmediaFb {
-    float: right;
+    float: center;
     margin-right: 5%; 
     color: blue;  
-    font-size: 30px; 
+    font-size: 40px; 
     background-color: black;
 }
 
 .socialmediaYtb{
-    float: right;
+    float: center;
     margin-right: 5%;
     color: red;
-    font-size: 30px;
+    font-size: 40px;
     background-color: black;
 }
 
@@ -150,7 +148,7 @@ body {
 
 .socialmediaicons{
     float:right;
-    margin-right: 60px;
+    margin-right: 20px;
     
 }
 
@@ -174,14 +172,69 @@ body {
     display: inline;
     
 }
-
+/* FOOTER SECTION */
 .footer {
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
-    text-align: center;
- }
-.footerAlign{
-    text-align: center;
+    top: 1;
+    width: 90%;
+    margin-left: 5%;
+    text-align: middle;
+
+
 }
+   
+.footerAlign {
+    text-align:middle;
+    font-size: 14px;
+
+
+}
+
+/* RESPONSIVE IDEA KEEP*/
+
+/* @media only screen and (max-width: 480px) {
+
+    a.mobile {
+        display: block;
+        color: #fff;
+        background: #000;
+        text-align: center;
+        padding: 7px;
+        cursor: pointer;
+    }
+
+    a.mobile:active {
+        background: #474747;
+    }
+
+
+    .sidebar {
+        width: 100%;
+        display: none;
+        height: auto;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 480px) {
+    .sidebar {
+        height: 92%;
+        left: 0;
+        display: block;
+        position: absolute;
+    }
+
+    a.mobile {
+        display: none;
+    }
+} */
+

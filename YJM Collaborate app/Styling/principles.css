@@ -1,0 +1,33 @@
+/* ADD FONT DECISIONS */
+
+.divStyleParagraph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    }
+
+.divStyleOList {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: firebrick;
+
+}
+.divStyleOList:hover {
+    transition-duration: 0.20s ease-in-out;
+    font-size: 25px;
+    color: white;
+    
+
+}
+    
+    
+    /* //CURSIVE FONT OPTIONS BELOW */
+    
+    /* .satisfy {
+        font-family: 'Satisfy', cursive;
+    }
+        
+    .dancing {
+        
+        font-family: 'Dancing Script', cursive;
+    } */
+    
