@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../Styling/donate.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../Resources/yjm logo.png">
+    
 
     <title>Our Principles</title>
 </head>
@@ -25,12 +26,18 @@
                         <a class="w3-btn" style="float:inline-end" href="..//Pages/Research.html">Research</a>
                         <a class="w3-btn" style="float:inline-end" href="..//Pages/News.html">News</a>
                         <a class="w3-btn" style="float:inline-end" href="..//Pages/Gallery.html">Gallery</a>
-                        <a class="w3-btn" style="float:inline-end" href="..//Pages/about.html">About</a>
                         <a class="w3-btn" style="float:inline-end" href="../Pages/donate.html">Donate</a>
-         
+                        <div class="dropdown">
+                            <a class="w3-btn, dropbtn" style="float:inline-end" href="../Pages/about.html">About</a>
+                            <div class="dropdown-content">
+                            <a href="../Pages/background.html">Background</a>
+                            <a href="../Pages/coalition.html">Coalition & Partners</a>
+                            <a href="../Pages/principles.html">Our Principles</a>
+                            </div>
+                            </div>
                 </nav>
             </div>
-    <div class="divStyleParagraph">
+    <div class="divStyleParagraph; w3-container">
         <p>
             Youth Justice Milwaukee adheres to the following ten core principles in our work to ensure a fairer, safer,
             more effective,more cost-efficient juvenile justice system in Wisconsin. These principles are grounded in research that
@@ -77,5 +84,131 @@
     </div>
 
 </body>
+<!-- <a class="mobile">MENU</a> -->
+
+<footer>
+    <div id="yjmFooter">
+        <!-- YJM LOGO PNG -->
+         <img src="..///COLLABORATE/YJM2.png" width="140" height="140"> 
+
+        <div>
+            <table>
+
+                <!-- KEEP BOTH BUTTONS FOR NOW UNTIL WE FIGURE OUT ACTION -->
+                <!-- LINK TO LOGIN.JS SSO CODE -->
+                <div id='houdini'>
+                    <button onclick="login()" style="background-color:orange">ADMINISTRATOR</button>
+                </div>
+
+
+                <!-- <tr id='houdini'>
+                    <button onclick="login()"style= "background-color:orange">ADMINISTRATOR</button>
+                </tr> -->
+                <tr>
+                    <h5>Youth Justice Milwaukee</h5>
+                </tr>
+
+                <tr>
+                    <h5><i style="color:orange " class="far fa-copyright">Copyright 2019</i></i></h5>
+                </tr>
+
+
+                <!-- ABOUT -->
+                <div>
+                    <tr>
+                        <td><a href="..//Pages/background.html">Our Background</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="..//Pages/coalition.html">Coalition & Partners </a> </td>
+                    </tr>
+                    <tr>
+                        <td><a href="..//Pages/principles.html">Our Principles</a> </td>
+                    </tr>
+
+                     <tr>
+                        <td><a href="..//YJM/PAGES/test.html">Join The Movement</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="..//YJM/PAGES/test.html">Stay Connected</a></td>
+                    </tr>
+                </div>
+            </table>
+        </div>
+
+        <!-- MEDIA -->
+        <div>
+            <table>
+                <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Blogs</a></td>
+                </tr>
+                <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Press & Releases</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- NEWS -->
+        <div>
+            <table>
+         <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Polls</a></td>
+                </tr> 
+
+         <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Publications</a></td>
+                </tr> 
+
+         <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Fact Sheet</a></td>
+                </tr> 
+
+        <!-- </table>
+        </div>
+
+        <!-- CONTACT -->
+        <div> 
+            <table>
+        <!-- <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Staff</a></td>
+         </tr> -->
+
+        <tr>
+            <td><a href="..//Pages/mediacontact.html">Media Contacts</td>
+        </tr>
+
+        </table>
+
+    </div>
+
+    <!-- GALLERY -->
+    <!-- <div>
+            <table>
+                <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Photos</a></td>
+                </tr>
+
+                <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Videos</td>
+                </tr>
+
+            </table>
+
+        </div> -->
+    <!-- SOCIAL MEDIA -->
+    <!-- 
+            <table>
+                <tr>
+                    <h4><i style="color:blue" class="fab fa-facebook fa-3x" ></i></h4>
+                    <h4><i style="color:red" class="fab fa-youtube fa-3x" ></i></h4>
+                    <h4><i style="color: orange" class="fab fa-instagram fa-3x" ></i></h4>
+                    <h4><i style="color: blue" class="fab fa-twitter fa-3x" ></i></h4>         
+            </tr>
+            </table> 
+       
+</footer>
+
+<script src="..//Scripts/YJMscripts.js"></script>
+<script src="..//Scripts/login.js"></script>
 
 </html>
