@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="./styling/bootstrap.css">
+  <link rel="stylesheet" href="./styling/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Satisfy" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="./resources/YJMlogo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">About</a>
+            <a class="dropdown-item" href="#">Background</a>
+            <a class="dropdown-item" href="#">Coalition and Partners</a>
+            <a class="dropdown-item" href="#">Our Principles</a>
+            <a class="dropdown-item" href="#">Join the Movement</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Meet the Staff</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Media
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Media</a>
+            <a class="dropdown-item" href="#">Blog & Op-Eds</a>
+            <a class="dropdown-item" href="#">Press Release</a>
+            <a class="dropdown-item" href="#">Media Contacts</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Resources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Resources</a>
+            <a class="dropdown-item" href="#">Polls</a>
+            <a class="dropdown-item" href="#">Publication</a>
+            <a class="dropdown-item" href="#">Fact Sheet</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Donate</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- I'm not sure if this is fixed or not! -->
+    <div class="row">
+      <nav class="col-sm-1 ">
+        <ul class="nav sidebar">
+          <li class="active"><a href="#section1"><img src="./resources/icons/businessman.svg" alt=""></a></li>
+          <li><a href="#section2"><img src="./resources/icons/24-hours.svg" alt=""></a></li>
+          <li><a href="#section3"><img src="./resources/icons/diploma.svg" alt=""></a></li>
+          <li><a href="#section3"><img src="./resources/icons/medicines.svg" alt=""></a></li>
+          <li><a href="#section3"><img src="./resources/icons/reunion.svg" alt=""></a></li>
+          <li><a href="#section3"><img src="./resources/icons/siren.svg" alt=""></a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer" style="background-color: firebrick">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-5 mt-md-0 mt-2">
+          <!-- Content -->
+          <!-- LINK TO LOGIN.JS SSO CODE -->
+          <div id='houdini'>
+            <button onclick="login()" style="background-color:orange">ADMINISTRATOR</button>
+          </div>
+        </div>
+        <div class="col-md-2 mb-md-0 mb-3">
+          <ul style=" text-align: center" class="list-unstyled">
+            <li>
+              <a href="">Background</a>
+            </li>
+            <li>
+              <a href="#!">Principles</a>
+            </li>
+            <li>
+              <a href="#!">Coalition & Partnerships</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div style=color:orange class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="ADD HOME LANDING PAGE LINK HERE"> Youth Justice Milwaukee</a>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
