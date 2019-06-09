@@ -1,11 +1,14 @@
-.btn{
-  background-color: yellow;
-  border-color: white;
-  color: black;
-  padding: 30px;
+.btnnn{
+  background-color: yellow!important;
+  border-color: white!important;
+  color: black!important;
+  padding: 30px!important;
   font-family: fantasy;
   font: bold;
-  font-size: large; 
+  font-size:medium; 
+  text-align: center;
+  display: block;
+  margin-left: 16%;
   
 }
 
@@ -16,14 +19,6 @@
     
 }
 
-.columns {
-    column-count: 2;
-    column-gap: 150px;
-    margin-top: 0.05%;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: justify;
-}
 
 .satisfy {
     font-family: 'Satisfy', cursive;
@@ -34,17 +29,8 @@
     font-family: 'Dancing Script', cursive;
     }
     
-    .margins1 {
-        margin-block-start: 2% !important;
-        margin-left: 20% !important;
-        margin-right: 2% !important;
-        
+    .margins {
+        margin: auto;
     }
     
-    .margins2 {
-        margin-block-end: 2% !important;
-        margin-left: 2% !important;
-        margin-right: 20% !important;
-    }
-    
-    
+   

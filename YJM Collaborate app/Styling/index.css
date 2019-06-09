@@ -1,0 +1,141 @@
+.sidebar img{
+    height: 75px;
+    width: 75px;
+   padding: 10px 0px;
+   
+  }
+  .section1{
+      background-image: url(../resources/background/50\ Shades\ of\ Grey.jpg);
+  }
+  .section2{
+      background-color:rgb(255, 253, 145);
+  }
+
+  .sidebaricons img{
+      height: 75px;
+      width: 75px;
+
+  }
+  .sidebaricons{
+    
+    position: fixed;
+    top: 30%;
+    left: 0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .sidebaricons a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2px;
+    text-align:right;
+    transform: translate(-130px, 0px);
+    transition: .5s;
+    color: black;
+    
+    }
+    
+    .sidebaricons a img{
+    margin-left: 20px;
+    background-color: white;;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 60%; 
+    }
+    
+    .sidebaricons a:hover{
+    transform: translate(-40px, 0px);
+    }
+
+.gallery img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    
+    }
+
+    .hashtag{
+        text-align: center;
+        color:black;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 3rem;
+        letter-spacing: 4px;
+    }
+  
+
+.divbreak{
+    background: white;
+    padding: 20px;
+}
+.article_content_container {
+    background-color: rgb(246, 223, 243);
+    margin: 40px auto 0 auto;
+    max-width: 1400px;
+}
+
+.article_content {
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    flex-basis: 30%;
+}
+.article_content h4{
+    text-align: center;
+}
+
+.article_content:nth-child(1){
+    background-color: rgb(32, 87, 151);
+}
+.article_content:nth-child(2){
+    background-color:#B2D6FF;
+}
+.article_content:nth-child(3){
+    background-color: #5995DA;
+}
+@media only screen and (min-width: 961px) {
+    .article_content_container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .gallery_content_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .gallery_content_container img {
+        height: 30%;
+        width: 20%;
+
+    }
+    
+}
+
+.para1{
+    border: 1px solid white;
+    height: 30%;
+    background-color: rgb(255, 83, 60) ;
+    opacity: .6;
+    margin-top: 7%;
+    margin-left: 5%;
+
+}
+.para1 p{
+    color: black;
+    font-size: 1rem;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.content1{
+    height: 50%;;
+}
+
