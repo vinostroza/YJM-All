@@ -10,61 +10,104 @@
     <link rel="stylesheet" href="../Styling/donate.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../Resources/yjm logo.png">
+    <link rel="stylesheet" href="../Styling/bootstrap.css">
+    <link rel="stylesheet" href="../Styling/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Satisfy" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="w3-margin-top; navbar">
-        <nav !important class="w3-padding-16">
-            <img class="nav" style="float:inline-start" src="../Resources/yjm logo.png" alt="" width="120px"
-                height="120px">
-                <a class="w3-btn" style="float:inline-end" href="..//Pages/yjm.html">Home</a>
-                <a class="w3-btn" style="float:inline-end" href="..//Pages/Research.html">Research</a>
-                <a class="w3-btn" style="float:inline-end" href="..//Pages/News.html">News</a>
-                <a class="w3-btn" style="float:inline-end" href="..//Pages/Gallery.html">Gallery</a>
-                <a class="w3-btn" style="float:inline-end" href="..//Pages/about.html">About</a>
-                <a class="w3-btn" style="float:inline-end" href="../Pages/donate.html">Donate</a>
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown 
-                  <i class="fa fa-caret-down"></i>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <a class="navbar-brand" href="#"><img src="./resources/YJMlogo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="dropdown-content">
-                  <a href="#">Background</a>
-                  <a href="#">Coalition & Partners</a>
-                  <a href="#">Our Principles</a>
-                  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        About
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../Pages/about.html">About</a>
+                        <a class="dropdown-item" href="../Pages/background.html">Background</a>
+                        <a class="dropdown-item" href="../Pages/coalition.html">Coalition and Partners</a>
+                        <a class="dropdown-item" href="../Pages/principles.html">Our Principles</a>
+                        <a class="dropdown-item" href="#">Join the Movement</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Meet the Staff</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Media
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Media</a>
+                        <a class="dropdown-item" href="#">Press Release</a>
+                        <a class="dropdown-item" href="#">Media Contacts</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Resources
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Resources</a>
+                        <a class="dropdown-item" href="../Pages/polls&factsheet.html">Factsheet and Polls</a>
+                        <a class="dropdown-item" href="#">Publication</a>
+                        
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../Pages/donate.html">Donate</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
                 </div>
-              </div> 
-        </nav>
-    </div>
+              </nav>
     <br>
+
+    
 
     <div>
-        <h2 style="color: blue; text-align: center">#About</h2>
+        <h2 style="color: blue; text-align: center; font-family: satisfy, cursive; font-size: 70px ">#About</h2>
     </div>
 
     <br>
-    <div class="w3-container">
-        <p> Youth Justice Milwaukee (YJM) is a broad-based campaign advocating for
+    <div class="w3-container; w3-row">
+        <p class="w3-half; w3-container"> Youth Justice Milwaukee (YJM) is a broad-based campaign advocating for
             community-based and family-centered restorative programs as an alternative to
             incarceration in Wisconsin's youth prisons. The coalition represents formerly incarcerated youth
             families of youth involved in the juvenile justice system, service providers, and local and national youth
             justice advocates.
-
-            <br>
-            <br>
-
+            <div class="w3-half" style="margin-left: 1rem"> <img src="../Resources/3 friends.jpg" alt="about3friends" class="w3-half" height="300px" width="1000px"></div>
+            
+            
            <div> Youth Justice Milwaukee will: </div>
-
+            
            <ul>
                <li>Coordinate community-centered advocacy strategies to impact the county's plans</li>
                <li>Ensure directly impacted constituencies are at the table</li>
                <li>Bring a racial justice lens to juvenile justice reforms</li>
                <li>Compliment the existing array of strategies</li>
            </ul>
-
+           
            <br>
-           <br>
+           
            <div> Youth Justice Milwaukee's Goals:</div>
 
            <ul>
@@ -75,7 +118,20 @@
            </ul>
 
         </p>
+        
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="./Scipting/scripts.js"></script>
+
 </body>
 
 </html>

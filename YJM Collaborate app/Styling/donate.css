@@ -1,4 +1,4 @@
-a:link, a:visited {
+/* a:link, a:visited {
   
     padding: 14px 25px;
     text-align: center; 
@@ -11,16 +11,45 @@ a:link, a:visited {
   /* } */
 
   
-    .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap
-    }
+    /* .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap
+    } */
 
-    nav img {
+    /* nav img {
       margin-right: 15%;
       margin-left: 3%
-    }
+    } */ 
 
-    /* .navbar {
-      overflow: hidden;
-      
-      font-family: Arial;
-    } */
+    /* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 14px;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(255, 240, 27);}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:white;}
+  

@@ -11,26 +11,78 @@
     <link rel="stylesheet" href="../Styling/donate.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../Resources/yjm logo.png">
+    <link rel="stylesheet" href="../Styling/bootstrap.css">
+    <link rel="stylesheet" href="../Styling/index.css">
+    
 
     <title>Our Principles</title>
 </head>
 
 
 <body>
-        <div class="w3-margin-top; navbar">
-                <nav !important class="w3-padding-16">
-                    <img class="nav" style="float:inline-start" src="../Resources/yjm logo.png" alt="" width="120px"
-                        height="120px">
-                        <a class="w3-btn" style="float:inline-end" href="..//Pages/yjm.html">Home</a>
-                        <a class="w3-btn" style="float:inline-end" href="..//Pages/Research.html">Research</a>
-                        <a class="w3-btn" style="float:inline-end" href="..//Pages/News.html">News</a>
-                        <a class="w3-btn" style="float:inline-end" href="..//Pages/Gallery.html">Gallery</a>
-                        <a class="w3-btn" style="float:inline-end" href="..//Pages/about.html">About</a>
-                        <a class="w3-btn" style="float:inline-end" href="../Pages/donate.html">Donate</a>
-         
-                </nav>
-            </div>
-    <div class="divStyleParagraph">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <a class="navbar-brand" href="#"><img src="./resources/YJMlogo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        About
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../Pages/about.html">About</a>
+                        <a class="dropdown-item" href="../Pages/background.html">Background</a>
+                        <a class="dropdown-item" href="../Pages/coalition.html">Coalition and Partners</a>
+                        <a class="dropdown-item" href="../Pages/principles.html">Our Principles</a>
+                        <a class="dropdown-item" href="#">Join the Movement</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Meet the Staff</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Media
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Media</a>
+                        <a class="dropdown-item" href="#">Press Release</a>
+                        <a class="dropdown-item" href="#">Media Contacts</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Resources
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Resources</a>
+                        <a class="dropdown-item" href="../Pages/polls&factsheet.html">Factsheet and Polls</a>
+                        <a class="dropdown-item" href="#">Publication</a>
+                        
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../Pages/donate.html">Donate</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+    <div class="divStyleParagraph; w3-container">
         <p>
             Youth Justice Milwaukee adheres to the following ten core principles in our work to ensure a fairer, safer,
             more effective,more cost-efficient juvenile justice system in Wisconsin. These principles are grounded in research that
@@ -77,5 +129,131 @@
     </div>
 
 </body>
+<!-- <a class="mobile">MENU</a> -->
+
+<footer>
+    <div id="yjmFooter">
+        <!-- YJM LOGO PNG -->
+         <img src="..///COLLABORATE/YJM2.png" width="140" height="140"> 
+
+        <div>
+            <table>
+
+                <!-- KEEP BOTH BUTTONS FOR NOW UNTIL WE FIGURE OUT ACTION -->
+                <!-- LINK TO LOGIN.JS SSO CODE -->
+                <div id='houdini'>
+                    <button onclick="login()" style="background-color:orange">ADMINISTRATOR</button>
+                </div>
+
+
+                <!-- <tr id='houdini'>
+                    <button onclick="login()"style= "background-color:orange">ADMINISTRATOR</button>
+                </tr> -->
+                <tr>
+                    <h5>Youth Justice Milwaukee</h5>
+                </tr>
+
+                <tr>
+                    <h5><i style="color:orange " class="far fa-copyright">Copyright 2019</i></i></h5>
+                </tr>
+
+
+                <!-- ABOUT -->
+                <div>
+                    <tr>
+                        <td><a href="..//Pages/background.html">Our Background</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="..//Pages/coalition.html">Coalition & Partners </a> </td>
+                    </tr>
+                    <tr>
+                        <td><a href="..//Pages/principles.html">Our Principles</a> </td>
+                    </tr>
+
+                     <tr>
+                        <td><a href="..//YJM/PAGES/test.html">Join The Movement</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="..//YJM/PAGES/test.html">Stay Connected</a></td>
+                    </tr>
+                </div>
+            </table>
+        </div>
+
+        <!-- MEDIA -->
+        <div>
+            <table>
+                <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Blogs</a></td>
+                </tr>
+                <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Press & Releases</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- NEWS -->
+        <div>
+            <table>
+         <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Polls</a></td>
+                </tr> 
+
+         <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Publications</a></td>
+                </tr> 
+
+         <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Fact Sheet</a></td>
+                </tr> 
+
+        <!-- </table>
+        </div>
+
+        <!-- CONTACT -->
+        <div> 
+            <table>
+        <!-- <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Staff</a></td>
+         </tr> -->
+
+        <tr>
+            <td><a href="..//Pages/mediacontact.html">Media Contacts</td>
+        </tr>
+
+        </table>
+
+    </div>
+
+    <!-- GALLERY -->
+    <!-- <div>
+            <table>
+                <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Photos</a></td>
+                </tr>
+
+                <tr>
+                    <td><a href="..//YJM/PAGES/test.html">Videos</td>
+                </tr>
+
+            </table>
+
+        </div> -->
+    <!-- SOCIAL MEDIA -->
+    <!-- 
+            <table>
+                <tr>
+                    <h4><i style="color:blue" class="fab fa-facebook fa-3x" ></i></h4>
+                    <h4><i style="color:red" class="fab fa-youtube fa-3x" ></i></h4>
+                    <h4><i style="color: orange" class="fab fa-instagram fa-3x" ></i></h4>
+                    <h4><i style="color: blue" class="fab fa-twitter fa-3x" ></i></h4>         
+            </tr>
+            </table> 
+       
+</footer>
+
+<script src="..//Scripts/YJMscripts.js"></script>
+<script src="..//Scripts/login.js"></script>
 
 </html>
