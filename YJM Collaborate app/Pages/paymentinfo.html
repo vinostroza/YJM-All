@@ -12,20 +12,72 @@
     <link rel="stylesheet" href="../Resources/Stop the Rail to Jail 076.jpg">
     <link rel="stylesheet" href="../Pages/about.html">
     <link rel="stylesheet" href="../Pages/Confirmation.html">
+    <link rel="stylesheet" href="../Styling/bootstrap.css">
+    <link rel="stylesheet" href="../Styling/index.css">
 </head>
 <body>
-        <div class="w3-margin-top !important">
-                <nav !important class="w3-padding-16">
-                    <img class="nav" style="float:inline-start" src="../Resources/yjm logo.png" alt="" width="120px" height="120px" >
-                    <a class="w3-btn" style="float:inline-end" href="..//Pages/yjm.html">Home</a>
-                    <a class="w3-btn" style="float:inline-end" href="../Pages/about.html">About</a>
-                    <a class="w3-btn" style="float:inline-end" href="..//Pages/News.html">News</a>
-                    <a class="w3-btn" style="float:inline-end" href="..//Pages/Research.html">Research</a>
-                    <a class="w3-btn" style="float:inline-end" href="..//Pages/Gallery.html">Gallery</a> 
-                    <a class="w3-btn" style="float:inline-end" href="../Pages/donate.html">Donate</a> 
-        
-                </nav>
-            </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <a class="navbar-brand" href="#"><img src="../resources/YJMlogo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        About
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../Pages/about.html">About</a>
+                        <a class="dropdown-item" href="../Pages/background.html">Background</a>
+                        <a class="dropdown-item" href="../Pages/coalition.html">Coalition and Partners</a>
+                        <a class="dropdown-item" href="../Pages/principles.html">Our Principles</a>
+                        <a class="dropdown-item" href="#">Join the Movement</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Meet the Staff</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Media
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Media</a>
+                        <a class="dropdown-item" href="#">Press Release</a>
+                        <a class="dropdown-item" href="#">Media Contacts</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Resources
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Resources</a>
+                        <a class="dropdown-item" href="../Pages/polls&factsheet.html">Factsheet and Polls</a>
+                        <a class="dropdown-item" href="#">Publication</a>
+                        
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../Pages/donate.html">Donate</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
 
             <div style="text-align:center" >
                     <h3>Paypal or Credit Card</h3>
@@ -69,12 +121,68 @@
               </form>
             </div>
             <br>
-           
+            <div class="sidebaricons" id="sidebar">
+              <a href="#" class="Education">Education<img src="../resources/icons/diploma.svg" alt=""> </a>
+              <a href="#" class="Emergency">Employment<img src="../resources/icons/job-search.svg" alt=""> </a>
+              <a href="#" class="Emergency">Wellness<img src="../resources/icons/heartbeat.svg" alt=""> </a>
+              <a href="#" class="NameofResource">Justice Legal<img src="../resources/icons/libra.svg" alt=""> </a>
+              <a href="#" class="Health">Housing<img src="../resources/icons/housing.svg" alt=""> </a>
+              <a href="#" class="Community">Emergency<img src="../resources/icons/siren.svg" alt=""> </a>
+            </div>
 
             <div style="text-align:center">  
             <button >Paypal</button>
               <a href="https://www.paypal.com/us/home"></a>
             </div>
+            <br>
+            <br>
+            <br>
+            
+
+            <footer class="page-footer" style="background-color:white;">
+                    <div class="container-fluid text-center text-md-left">
+                      <div class="row">
+                        <div class="col-md-5 mt-md-0 mt-2">
+                          <!-- Content -->
+                          <!-- LINK TO LOGIN.JS SSO CODE -->
+                          <!-- <div id='houdini'>
+                                <button onclick="login()" style="background-color:orange">ADMINISTRATOR</button>
+                              </div> -->
+                        </div>
+                        <div class="col-md-2 mb-md-0 mb-3">
+                          <ul style=" text-align: center " class="list-unstyled">
+                            <li>
+                              <a href="#">Background</a>
+                            </li>
+                            <li>
+                              <a href="#!">Principles</a>
+                            </li>
+                            <li>
+                              <a href="#!">Coalition & Partnerships</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                
+                    <!-- Copyright -->
+                    <div style=color:orange class="footer-copyright text-center py-0">© 2019 Copyright:
+                      <a href="index.html"> Youth Justice Milwaukee</a>
+                    </div>
+                
+                  </footer>
+
+                  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="./Scipting/scripts.js"></script>
     
     
             
