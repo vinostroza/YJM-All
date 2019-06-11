@@ -1,86 +1,94 @@
-.sidebar img{
+.sidebar img {
     height: 75px;
     width: 75px;
-   padding: 10px 0px;
-   
-  }
-  .section1{
-      background-image: url(../resources/background/50\ Shades\ of\ Grey.jpg);
-  }
-  .section2{
-      background-color:rgb(255, 253, 145);
-  }
+    padding: 10px 0px;
 
-  .sidebaricons img{
-      height: 75px;
-      width: 75px;
+}
 
-  }
-  .sidebaricons{
-    
+/* .section1 {
+     background-image: url(../resources/background/50\ Shades\ of\ Grey.jpg); 
+    padding: 7%; 
+} */
+
+/* .section2 {
+     background-color: rgb(255, 253, 145); 
+} */
+
+.sidebaricons img {
+    height: 75px;
+    width: 75px;
+
+}
+
+.sidebaricons {
+
     position: fixed;
     top: 30%;
     left: 0%;
     width: 200px;
     display: flex;
     flex-direction: column;
-    }
-    
-    .sidebaricons a{
+}
+
+.sidebaricons a {
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
     font-size: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 2px;
-    text-align:right;
+    text-align: right;
     transform: translate(-130px, 0px);
     transition: .5s;
-    color: black;
-    
-    }
-    
-    .sidebaricons a img{
+       color: black;
+
+}
+
+.sidebaricons a img {
     margin-left: 20px;
-    background-color: white;;
+    background-color: white;
+    ;
     height: 40px;
     width: 40px;
     text-align: center;
     line-height: 40px;
-    border-radius: 60%; 
-    }
+    border-radius: 60%;
     
-    .sidebaricons a:hover{
-    transform: translate(-40px, 0px);
-    }
+}
 
-.gallery img{
+.sidebaricons a:hover {
+    transform: translate(-40px, 0px);
+}
+
+.gallery img {
     height: 200px;
     width: 200px;
     margin: 10px;
-    border: 2px solid white;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    /* border: 2px solid white;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3); */
     
-    }
 
-    .hashtag{
-        text-align: center;
-        color:black;
-        font-family: 'Permanent Marker', cursive;
-        font-size: 3rem;
-        letter-spacing: 4px;
-    }
-  
+}
 
-.divbreak{
+.hashtag {
+    text-align: center;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    letter-spacing: 4px;
+
+}
+
+
+.divbreak {
     background: white;
     padding: 20px;
 }
-.article_content_container {
+
+/* .article_content_container {
     background-color: rgb(246, 223, 243);
-    margin: 40px auto 0 auto;
-    max-width: 1400px;
-}
+   
+} */
 
 .article_content {
     padding: 30px;
@@ -88,19 +96,23 @@
     margin-bottom: 5px;
     flex-basis: 30%;
 }
-.article_content h4{
+
+.article_content h4 {
     text-align: center;
 }
 
-.article_content:nth-child(1){
-    background-color: rgb(32, 87, 151);
+.article_content:nth-child(1) {
+    background-color:rgb(188, 188, 189);
 }
-.article_content:nth-child(2){
-    background-color:#B2D6FF;
+
+.article_content:nth-child(2) {
+    background-color: #B2D6FF;
 }
-.article_content:nth-child(3){
+
+.article_content:nth-child(3) {
     background-color: #5995DA;
 }
+
 @media only screen and (min-width: 961px) {
     .article_content_container {
         display: flex;
@@ -116,27 +128,84 @@
     .gallery_content_container img {
         height: 30%;
         width: 20%;
+        align-content: center;
 
     }
-    
+
 }
 
-.para1{
+.para1 {
     border: 1px solid white;
     height: 30%;
-    background-color: rgb(255, 83, 60) ;
+    /* background-color: rgb(255, 83, 60); */
     opacity: .6;
     margin-top: 7%;
     margin-left: 5%;
 
 }
-.para1 p{
+
+.para1 p {
     color: black;
     font-size: 1rem;
     font-family: 'Archivo Narrow', sans-serif;
 }
-.content1{
-    height: 50%;;
+
+.content1 {
+    height: 50%;
+    ;
 }
 
+.modal-content{
+    margin-top: 20%;
 
+}
+
+/* SocialMediaSidebar */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 1%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  } */
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
